@@ -5,7 +5,7 @@
 #linksblauw {
     height: 340px;
     width: 140px;
-    background-color: darkblue;
+    background-color: rgb(11, 17, 91);
 }
 
 #linkscijfer {
@@ -16,13 +16,13 @@
     top: 40px;
     left: 25px;
     text-align: center;
-    color: darkblue;
+    color: rgb(11, 17, 91);
 }
 
 #vierkantje {
     height: 25px;
     width: 25px;
-    background-color: darkblue;
+    background-color: rgb(11, 17, 91);
     position: absolute;
     left: 24px;
     top: 40px;
@@ -33,7 +33,7 @@
     position: absolute;
     top: 70px;
     left: 30px;
-    color: darkblue;
+    color: rgb(11, 17, 91);
     font-size: 70px;
 }
 
@@ -42,14 +42,74 @@
     top: 64px;
     left: 104px;
     font-size: 35px;
-    color: darkblue;
+    color: rgb(11, 17, 91);
 }
 
-#stops {
+#middenvak {
     width: 560px;
     height: 340px;
-    background-color: rgb(19, 19, 103);
+    background-color: rgb(2, 9, 25);
     position: absolute;
     left: 148px;
     top: 8px;
+}
+
+#rechtsklok {
+    width: 242px;
+    height: 338px;
+    border: 1px solid;
+    position: absolute;
+    top: 8px;
+    left: 705px;
+    background-color: rgb(255, 255, 255)
+}
+
+#tijd {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(197, 204, 214);
+    position: absolute;
+    top: 40px;
+    left: 175px;
+    border: 1px solid;
+    z-index: 1;
+}
+
+#treinstops {
+    height: 220px;
+    width: 500px;
+    background-color: rgb(197, 204, 214);
+    position: absolute;
+    top: 80px;
+    left: 175px;
+    border: 1px solid;
+}
+
+#treinsoort {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(197, 204, 214);
+    position: absolute;
+    top: 40px;
+    left: 425px;
+    border: 1px solid;
+    z-index: 1;
+}
+
+#treininfo1 {
+    height: 35px;
+    width: 500px;
+    background-color: rgb(8, 22, 59);
+    position: absolute;
+    left: 176px;
+    top: 255px;
+}
+
+#treininfo2 {
+    height: 35px;
+    width: 500px;
+    background-color: rgb(8, 22, 59);
+    position: absolute;
+    left: 176px;
+    top: 292px;
 }

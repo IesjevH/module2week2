@@ -70,9 +70,15 @@
     background-color: rgb(197, 204, 214);
     position: absolute;
     top: 40px;
-    left: 175px;
-    border: 1px solid;
+    left: 176px;
+    border: 1px solid rgb(197, 204, 214);
     z-index: 1;
+}
+
+#digitale-tijd {
+    position: absolute;
+    top: -40px;
+    font-size: 40px;
 }
 
 #treinstops {
@@ -83,6 +89,14 @@
     top: 80px;
     left: 175px;
     border: 1px solid;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+p {
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
 }
 
 #treinsoort {
@@ -94,8 +108,7 @@
     left: 426px;
     z-index: 1;
     font-size: 40px;
-    color: rgb(11, 17, 91)
-    
+    color: rgb(11, 17, 91);
 }
 
 #treininfo1 {

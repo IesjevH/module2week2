@@ -9,7 +9,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="startTime()"">
+
+<script>
+    function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+
+    m = checkTime(m);
+
+    document.getElementById('digitale-tijd').innerHTML = h + ":" + m;
+    setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+    if (i < 10) {i = "0" + i}
+    return i;
+}
+</script>
+
     <div id="linksblauw"></div>
     <div id="linkscijfer"><b>spoor</b></div>
     <div id="vierkantje"></div>
@@ -17,8 +36,12 @@
     <div id="spoorletter"><b>b</b></div>
     <div id="middenvak"></div>
     <div id="rechtsklok"></div>
-    <div id="tijd"></div>
-    <div id="treinstops"></div>
+    <div id="tijd">
+        <p id="digitale-tijd"></p>
+    </div>
+    <div id="treinstops"><b>Deventer</b>
+        <p><b>via Rotterdam Alexan, Gouda, Utrecht Centraal, Amersfoort en Apeldoorn</b></p>
+    </div>
     <div id="treinsoort"><img id="nslogo" src="../images/nslogo.png"><b>Intercity</b></div>
     <div id="treininfo1">21:35 Intercity Leeuwarden rijdt niet</div>
     <div id="treininfo2">09:20 Intercity Deventer</div>

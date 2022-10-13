@@ -28,6 +28,10 @@ figcaption2 {
 
 body {
 	border: solid 2px;  
+	background-image: url(../images/tomaten.jpg);
+	background: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 #img1 {
@@ -37,7 +41,11 @@ body {
 }
 
 #img2 {
-	width: 200px;
+	width: 800px;
+	position: absolute;
+	top: 5px;
+	left: -530px;
+	z-index: -2;
 }
 
 .description {
@@ -46,12 +54,14 @@ body {
 	position: absolute;
 	left: 490px;
 	width: 500px;
-	top: 26px;
+	height: 100px;
+	top: 50px;
     padding-left: 7px;
 }
 
 .recipe_details {
 	width: 200px;
+	height: 100px;
 	background-color: lightgrey;
 	position: absolute;
 	left: 14px;
@@ -82,9 +92,9 @@ h2 {
 .variation {
 	background-color: lightgrey;
 	border: 2px solid black;
-	width: 140px;
-	position: relative;
+	width: 340px;
+	position: absolute;
     left: 350px;
-    top: 4px;
+    top: 350px;
     padding: 2px;
 }

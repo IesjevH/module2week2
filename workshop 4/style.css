@@ -37,3 +37,27 @@ div {
      max-height: 120%;
      margin-top: -10px;
 }
+
+#een {
+    width: 140px;
+    height: 40px;
+    float: left;
+}
+
+#twee {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+#drie {
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+
+#vier {
+    width: 140px;
+    height: 40px;
+    float: left;
+}

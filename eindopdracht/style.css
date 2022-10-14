@@ -1,3 +1,7 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
     background-color: rgb(3, 180, 48);
 }
@@ -6,8 +10,22 @@ body {
     width: 150px;
     height: 205px;
     background-color: white;
-    border-radius: 5%; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    border-radius: 5%;  
+    font-size: 22px;
+}
+
+#klaverlinks {
+    text-align: left;
+}
+
+#klaverlinks img {
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#klaverrechts {
+    float: right;
 }
 
 #harten {
@@ -16,6 +34,8 @@ body {
     background-color: white;
     border-radius: 5%;
     margin-left: 150px;
+    font-size: 22px;
+    color: rgb(221, 6, 13);
 }
 
 #schoppen {
@@ -24,6 +44,7 @@ body {
     background-color: white;
     border-radius: 5%;
     margin-left: 300px;
+    font-size: 22px;
 }
 
 #ruiten {
@@ -32,4 +53,6 @@ body {
     background-color: white;
     border-radius: 5%;
     margin-left: 450px;
+    font-size: 22px;
+    color: rgb(221, 6, 13);
 }

@@ -1,27 +1,35 @@
-#harten {
-    width: 150px;
-    height: 250px;
-    background-color: white;
-    border: 1px solid black
+body {
+    background-color: rgb(3, 180, 48);
 }
 
 #klaveren {
     width: 150px;
-    height: 250px;
+    height: 205px;
     background-color: white;
-    border: 1px solid black
+    border-radius: 5%; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+#harten {
+    width: 150px;
+    height: 205px;
+    background-color: white;
+    border-radius: 5%;
+    margin-left: 150px;
 }
 
 #schoppen {
     width: 150px;
-    height: 250px;
+    height: 205px;
     background-color: white;
-    border: 1px solid black
+    border-radius: 5%;
+    margin-left: 300px;
 }
 
 #ruiten {
     width: 150px;
-    height: 250px;
+    height: 205px;
     background-color: white;
-    border: 1px solid black
+    border-radius: 5%;
+    margin-left: 450px;
 }

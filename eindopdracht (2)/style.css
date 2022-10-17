@@ -41,9 +41,20 @@ body {
     color: rgb(221, 6, 13);
 }
 
-
 .cornernumbertop {
    padding-left: 5px;
+   padding-top: 1px;
+}
+
+.pip {
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.cornernumberbottom {
+    padding-left: 5px;
+    rotate: 180deg;
+    padding-bottom: 20px;
 }
 
 .smallclovertop {
@@ -52,10 +63,7 @@ body {
 
 .smallclovertop img {
     height: 17px;
-}
-
-.pip {
-    background-color: white;
+    padding-left: 5px;
 }
 
 .smallcloverbottom {
@@ -64,11 +72,7 @@ body {
 
 .smallcloverbottom img {
     height: 17px;
-}
-
-.cornernumberbottom {
-    background-color: white;
-    padding-left: 5px;
+    padding-right: 130px;
     rotate: 180deg;
 }
 
@@ -81,6 +85,7 @@ body {
     height: 17px;
     padding-left: 5px;
     rotate: 180deg;
+    padding-right: 130px;
 }
 
 .smallspadetop img {
@@ -92,6 +97,7 @@ body {
     height: 17px;
     padding-left: 5px;
     rotate: 180deg;
+    padding-right: 130px;
 }
 
 .smalldiamondstop img {
@@ -103,5 +109,6 @@ body {
     height: 17px;
     padding-left: 5px;
     rotate: 180deg;
+    padding-right: 130px;
 }
 

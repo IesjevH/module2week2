@@ -16,6 +16,7 @@ body {
 
 #klaverlinks {
     text-align: left;
+    float: left;
 }
 
 #klaverlinks img {
